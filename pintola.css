@@ -1,0 +1,203 @@
+.nav-pintola {
+    margin-left: 100px;
+    position: sticky;
+
+}
+
+.navbar {
+    border-bottom: 2px solid rgb(227, 110, 30);
+    padding-bottom: 5px;
+
+}
+
+.nav-profile {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-left: 150px;
+
+}
+
+.nav-profile img {
+    height: 22px;
+}
+/* .navbar-nav .nav-item{
+    list-style: none;
+    color: black;
+} */
+
+.navbar-nav {
+    gap: 25px;
+    margin-left: 170px;
+}
+
+.nav-item img {
+    height: 15px;
+
+}
+
+h2 {
+    font-family: "Baloo 2", serif;
+    font-optical-sizing: auto;
+    text-align: center;
+}
+
+.Seller {
+    text-align: center;
+    border-bottom: 2px solid #000;
+    padding-bottom: 5px;
+    /* width: 5cm; */
+}
+
+.card1 {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    text-align: center;
+}
+
+.discount-tag {
+    position: absolute;
+    right: 0px;
+    background: rgb(227, 110, 30);
+    color: white;
+    padding: 4px 6px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.mrp {
+    text-decoration: line-through;
+    color: rgb(128, 128, 128);
+}
+
+.dropdown {
+    background-color: rgb(255, 245, 239);
+}
+
+.group-item {
+    color: rgb(128, 128, 128);
+    border: 1px solid rgb(227, 110, 30);
+    /* border-color:rgb(227, 110, 30) ; */
+}
+
+.group-item img {
+    height: 14px;
+    color: rgb(128, 128, 128);
+}
+
+.group-item:hover {
+    background-color: rgb(227, 110, 30);
+    color: #000;
+}
+
+.Seller2 {
+    padding: 60px;
+    text-align: center;
+    border-bottom: 2px solid #000;
+    padding-bottom: 5px;
+    /* width: 5cm; */
+}
+
+.card2 {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card3 {
+    padding-top: 35px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Seller3 {
+    padding: 60px;
+    text-align: center;
+    border-bottom: 2px solid #000;
+    padding-bottom: 5px;
+    /* width: 5cm; */
+}
+
+.follow {
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.insta1 {
+    display: flex;
+    height: 250px;
+    gap: 5px;
+    justify-content: center;
+
+
+}
+
+.insta2 {
+    display: flex;
+    height: 250px;
+    gap: 5px;
+    padding-top: 5px;
+    justify-content: center;
+
+}
+
+.insta3 {
+    display: flex;
+    height: 250px;
+    gap: 5px;
+    padding-top: 5px;
+    justify-content: center;
+    border-bottom: 4px solid rgb(227, 110, 30);
+    padding-bottom: 10px;
+}
+
+.video:hover {
+    filter: brightness(50%);
+
+}
+
+.insta:hover {
+    filter: brightness(50%);
+
+}
+
+.social-media img {
+    height: 15px;
+
+}
+
+footer {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+footer .btn {
+    border: 1px solid rgb(227, 110, 30);
+    color: black;
+    border-radius: 0%;
+}
+
+footer .btn:hover {
+    background-color: rgb(227, 110, 30);
+    color: white;
+}
+
+.container{
+    column-count: 5;
+    column-gap: 10px;
+}
+
+.list-group .Sold {
+    color: rgb(128, 128, 128);
+}
